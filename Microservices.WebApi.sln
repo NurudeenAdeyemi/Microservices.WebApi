@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{B5DCCC5A-E0DD-41DC-8DED-013C37D47ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Authentication", "Microservices.Authentication\Microservices.Authentication.csproj", "{EDDDA76F-EBDD-49A9-BB0D-2D63846025BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.StockTrading", "Microservices.StockTrading\Microservices.StockTrading.csproj", "{3337314F-3B3B-405C-AC6A-7AB28263335E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDDDA76F-EBDD-49A9-BB0D-2D63846025BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDDA76F-EBDD-49A9-BB0D-2D63846025BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDDA76F-EBDD-49A9-BB0D-2D63846025BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDDA76F-EBDD-49A9-BB0D-2D63846025BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3337314F-3B3B-405C-AC6A-7AB28263335E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3337314F-3B3B-405C-AC6A-7AB28263335E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3337314F-3B3B-405C-AC6A-7AB28263335E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3337314F-3B3B-405C-AC6A-7AB28263335E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDDDA76F-EBDD-49A9-BB0D-2D63846025BF} = {B5DCCC5A-E0DD-41DC-8DED-013C37D47ECA}
+		{3337314F-3B3B-405C-AC6A-7AB28263335E} = {B5DCCC5A-E0DD-41DC-8DED-013C37D47ECA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {134C19B7-BD3B-46BD-BFDC-340A3857A78C}
+	EndGlobalSection
+EndGlobal
