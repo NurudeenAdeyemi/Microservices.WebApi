@@ -67,7 +67,9 @@ namespace Microservices.StockTrading.Repositories
                 .Include(b => b.Stock)
                  .Where(b => b.UserId == userId).Select(b => new UserStockDto
                  {
-                     Id = b.StockId,
+                     Id = b.Id,
+                     StockId = b.StockId,
+                     UserId = b.UserId,
                      Name = b.Stock.Name,
                      Price = b.Price,
                      Share = b.Share,
